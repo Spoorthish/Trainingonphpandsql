@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>events</title>
+</head>
+<body>
+<h1 id="h1" onclick="fun()">HELLO WORLD</h1>
+<h2 id="h2" onClick="fun()"> JAVASCRIPT </h2>
+<p id="p" onmouseover="fun1()">DOM JAVASCRIPT</p>
+<script>
+    function fun() {
+        var a = document.getElementById("h1").innerText = "WELCOME TO JAVASCRIPT DOM"
+        var b = document.getElementById("h2").style.fontSize="100px";
+        var b = document.getElementById("h2").style.color="blue";
+        var b = document.getElementById("h2").style.textDecoration="underline double pink";
+    }
+    function fun1() {
+        var c= document.getElementById("p").style.fontSize="10px";
+    }
+</script>
+
+</body>
+</body>
+</html>
