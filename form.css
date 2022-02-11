@@ -1,0 +1,21 @@
+
+h1{
+    color: blue;
+}
+div{
+    margin: auto;
+    border: 2px black solid;
+    padding: 10px;
+    border-radius: 5px;
+    height: 300px;
+    width: 500px;
+    background-color: gray;
+}
+input{
+    align-items: center;
+    border-radius:5px;
+}
+button{
+    color: blueviolet;
+    margin: auto;
+}
